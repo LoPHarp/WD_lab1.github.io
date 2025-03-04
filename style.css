@@ -1,0 +1,35 @@
+body
+{
+    /* Стилі для фону та шрифту сторінки */
+    background-color: rgb(232, 239, 252);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item.nav-link:hover 
+{
+    /* Стилі для пунктів меню при наведенні */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-item.nav-link.active 
+{
+    /* Стилі для активного пункту меню */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white !important;
+}
+
+.footer 
+{
+    /* Стилі для футера */
+    background-color: #212529;
+    color: #fff;
+    padding: 0.5rem 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1020;
+    font-size: 0.8rem;
+}
